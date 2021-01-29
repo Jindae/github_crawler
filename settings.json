@@ -1,7 +1,7 @@
 {
     "github.auth": [
-        ["username1", "OAuth_Key1"],
-        ["username2", "OAuth_Key2"]
+        ["GitHub_Username1", "Personal_Access_Token1"],
+        ["GitHub_Username2", "Personal_Access_Token2"]
     ],
     "mongodb.auth": {
         "host": "localhost",
