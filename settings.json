@@ -1,0 +1,12 @@
+{
+    "github.auth": [
+        ["username1", "OAuth_Key1"],
+        ["username2", "OAuth_Key2"]
+    ],
+    "mongodb.auth": {
+        "host": "localhost",
+        "port": 27017
+    },
+    "per_page":100,
+    "repo_file":"sample_repositories.csv"
+}
