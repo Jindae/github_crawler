@@ -5,9 +5,10 @@ A Public Data Crawler for GitHub using GitHub REST API.
 Currently, it is a sample implement to collect issues and store them to MongoDB.   
 The implementation reads `sample_repositories.csv`, and use the repository information to collect issues.   
 You can modify `parseResponse()`, `getURL()` functions as you want, based on the data you need to collect. 
+The information you can collect from GitHub REST API can be found in [here](https://docs.github.com/en/rest).
 
 In order to execute, you need to register your GitHub Username and Personal Access Token(PAT) for authentication.   
-If you register multiple authentication information, the crawler automatically ratoate the authentication info. within Rate Limit to collect data.   
+If you register multiple authentication information, the crawler automatically rotate the authentication info. within Rate Limit to collect data.   
 In order to create PAT, you can check [here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).  
 
 During crawling, you can check registered users' rate limit by running `rate_limit_info.py`.
